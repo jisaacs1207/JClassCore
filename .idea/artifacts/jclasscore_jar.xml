@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jclasscore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jclasscore_jar</output-path>
+    <root id="archive" name="jclasscore.jar">
+      <element id="module-output" name="jclasscore" />
+    </root>
+  </artifact>
+</component>

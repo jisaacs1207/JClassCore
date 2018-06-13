@@ -1,0 +1,6 @@
+name: JClassCore
+version: ${project.version}
+main: io.jisaacs.ci.jclasscore.JClassCore
+authors: [jisaacs1207]
+description: JClassCore Dependency for JClasses
+website: https://ci.jisaacs1207.io
