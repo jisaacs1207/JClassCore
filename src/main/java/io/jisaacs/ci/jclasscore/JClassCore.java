@@ -6,7 +6,7 @@ public final class JClassCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        //Jenkins Test
 
     }
 
