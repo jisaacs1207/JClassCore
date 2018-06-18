@@ -9,7 +9,10 @@ public final class JClassCore extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
+        plugin = this;
         registerEvents(this, new Novice(), new Utility(), new Commands());
+        getCommand("jclass").setExecutor(new Commands());
+        getCommand("jc").setExecutor(new Commands());
     }
 
     @Override
