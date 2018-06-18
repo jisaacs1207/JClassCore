@@ -10,7 +10,6 @@ public final class JClassCore extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         registerEvents(this, new Novice(), new Utility(), new Commands());
-
     }
 
     @Override
@@ -18,7 +17,7 @@ public final class JClassCore extends JavaPlugin implements Listener {
         plugin = null;
     }
 
-    public static void registerEvents(org.bukkit.plugin.Plugin plugin, Listener... listeners) {
+    private static void registerEvents(org.bukkit.plugin.Plugin plugin, Listener... listeners) {
         for (Listener listener : listeners) {
             Bukkit.getServer().getPluginManager().registerEvents(listener, plugin);
         }

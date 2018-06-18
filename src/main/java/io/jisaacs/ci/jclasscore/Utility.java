@@ -6,7 +6,7 @@ import java.util.Random;
 
 // This class is used primary for utility methods that are called throughout the code.
 
-public class Utility implements Listener {
+class Utility implements Listener {
 
     public static int randInt(int min, int max) {
 
