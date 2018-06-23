@@ -8,6 +8,12 @@ import java.util.Random;
 
 class Utility implements Listener {
 
+    private final JClassCore plugin;
+
+    public Utility(JClassCore plugin) {
+        this.plugin = plugin; // Store the plugin in situations where you need it.
+    }
+
     public static int randInt(int min, int max) {
 
         // NOTE: Usually this should be a field rather than a method

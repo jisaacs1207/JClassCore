@@ -9,3 +9,18 @@ commands:
    jclass:
       aliases: [jc]
       description: JClass Information
+      usage: /jclass [commands]
+      permission: jclass.admin
+      permission-message: You don't have permission to do that.
+   class:
+      aliases: [cl]
+      description: Current Class Info [JClass]
+      usage: /class [commands]
+      permission: jclass.player
+      permission-message: You don't have permission to do that.
+   novice:
+      aliases: [nov]
+      description: Novice Class Info [JClass]
+      usage: /class [commands]
+      permission: jclass.novice
+      permission-message: You don't have permission to do that.
